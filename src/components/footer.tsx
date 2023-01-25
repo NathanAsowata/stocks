@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
         <p>
-            Designed and built by <Link href={"https://www.nathanasowata.com/"}>Nathan Asowata</Link>. 
-            Data provided by <Link href={"https://www.alphavantage.co/"}>Alpha Vantage API</Link>
+            Designed and built by <Link href={"https://www.nathanasowata.com/"} target={"_blank"}>Nathan Asowata</Link>. 
+            Data provided by <Link href={"https://www.alphavantage.co/"} target={"_blank"}>Alpha Vantage API</Link>
         </p>
     </footer>
   )
