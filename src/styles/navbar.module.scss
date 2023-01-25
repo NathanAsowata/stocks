@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.logo{
+    font-size: 36px;
+    text-align: center;
+}
+@media screen and (min-width: 450px) {
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
